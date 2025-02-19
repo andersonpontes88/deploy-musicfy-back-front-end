@@ -1,9 +1,6 @@
 import axios from 'axios';
-import "dotenv/config";
-
 
 const URL = 'https://deploy-musicfy-fs.onrender.com/api';
-
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
