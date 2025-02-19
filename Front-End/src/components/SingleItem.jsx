@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const SingleItem = ({ _id, name, image, banner, artist, idPath }) => {
 	return (
-		<Link to={`${idPath}/${_id}`} className='single-item'>
+		<Link to={`/${idPath}/${_id}`} className='single-item'>
 			<div className='single-item__div-image-button'>
 				<div className='single-item__div-image'>
 					<img
@@ -13,6 +13,8 @@ const SingleItem = ({ _id, name, image, banner, artist, idPath }) => {
 						alt={`Imagem do Artista ${name}`}
 					/>
 				</div>
+
+				
 
 				<FontAwesomeIcon className='single-item__icon' icon={faCirclePlay} />
 			</div>
