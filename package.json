@@ -1,0 +1,21 @@
+{
+  "name": "musicfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Back-End && npm install --prefix Front-End && npm run build --prefix Front-End",
+    "start": "npm run start --prefix Back-End"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonpontes88/deploy-musicfy-back-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonpontes88/deploy-musicfy-back-front-end/issues"
+  },
+  "homepage": "https://github.com/andersonpontes88/deploy-musicfy-back-front-end#readme",
+  "description": ""
+}
